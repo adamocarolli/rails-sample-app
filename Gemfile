@@ -58,4 +58,7 @@ group :production do
 
   # Heroku uses gem to serve static assets (images/stylesheets)
   gem 'rails_12factor', '0.0.2'
+
+  # Deploy with the Puma Web Server
+  gem 'puma',           '3.1.0'
 end
